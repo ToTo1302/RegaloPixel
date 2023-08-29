@@ -1,0 +1,23 @@
+.color-circle {
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.smallimage {
+    width: 68px;
+    height: 56px;
+}
+
+
+.large-image {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.small-image {
+    width: 68px;
+    height: 56px;
+}
