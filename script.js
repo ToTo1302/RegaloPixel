@@ -36,7 +36,8 @@ function generateTable() {
   
       const smallImageCell = document.createElement("td");
       const smallImage = document.createElement("img");
-      smallImage.src = `img/${images[i]}.png`;
+        //https://github.com/ToTo1302/RegaloPixel/blob/gh-pages/img/Bellossom.png?raw=true
+      smallImage.src = `https://github.com/ToTo1302/RegaloPixel/blob/gh-pages/img/${images[i]}?raw=true`;
       smallImage.alt = images[i];
       smallImage.classList.add("small-image");
       smallImageCell.appendChild(smallImage);
